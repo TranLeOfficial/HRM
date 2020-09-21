@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Activity.Add_Staff_Activity">
+
+    <LinearLayout style="@style/actionbar">
+        <TextView style="@style/quanlynhansu"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/addStaff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/imgStaff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:src="@mipmap/img_account" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/tennhanvien" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/manhanvien" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/email" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:id="@+id/edtTenNVAddStaff"
+                style="@style/textviewND"
+                android:hint="@string/tennhanvien" />
+
+            <EditText
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:id="@+id/edtMaNVAddStaff"
+                style="@style/textviewND"
+                android:hint="@string/manhanvien" />
+
+            <EditText
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:id="@+id/edtEmailNVAddStaff"
+                style="@style/textviewND"
+                android:hint="@string/email" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/chucvu" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/gioitinh" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/diachi" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/sdt" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/duan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+
+                android:id="@+id/edtChucVuAddStaff"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                style="@style/textviewND"
+                android:hint="@string/chucvu" />
+
+            <RadioGroup
+                android:id="@+id/rdoGioiTinh"
+                style="@style/textviewND"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/btnNam"
+                    android:text="Nam"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/btnNu"
+                    android:text="Nữ"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/edtDiaChiAddStaff"
+                style="@style/textviewND"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:hint="@string/diachi" />
+
+            <EditText
+                android:id="@+id/edtPhoneAddStaff"
+                style="@style/textviewND"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:hint="@string/sdt" />
+
+            <Spinner
+                android:id="@+id/spinnerDuAn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/chucnang"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+<!--        Toast Thêm Thành công or lỗi-->
+        <Button
+            android:id="@+id/btnThemNV"
+            android:text="@string/themnhanvien"
+            style="@style/button" />
+
+        <Button
+            android:id="@+id/btnXemDSNV"
+            android:text="@string/danhsachnhanvien"
+            style="@style/button"/>
+        <Button
+            android:id="@+id/btnTaoAcc"
+            android:text="@string/taotaikhoang"
+            style="@style/button"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

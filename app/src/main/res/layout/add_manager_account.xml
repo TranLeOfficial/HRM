@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Activity.Add_Manager_Activity">
+
+    <LinearLayout style="@style/actionbar">
+
+        <TextView
+            style="@style/quanlynhansu"
+            android:text="@string/taotaikhoang" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/thongtintaikhoan" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/tentaikhoan" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/matkhau" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/nhaplaimatkhau" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/email" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/sdt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:id="@+id/edtTenManaAcc"
+                style="@style/textviewND"
+                android:hint="@string/tentaikhoan" />
+
+            <EditText
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:id="@+id/edtPassManaAcc"
+                style="@style/textviewND"
+                android:hint="@string/matkhau"
+                android:password="true" />
+
+            <EditText
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:id="@+id/edtRePassManaAcc"
+                style="@style/textviewND"
+                android:hint="@string/nhaplaimatkhau"
+                android:password="true" />
+
+            <EditText
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:id="@+id/edtEmailManaAcc"
+                style="@style/textviewND"
+                android:hint="@string/email" />
+
+            <EditText
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:id="@+id/edtPhoneManaAcc"
+                style="@style/textviewND"
+                android:hint="@string/sdt" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/quanly" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLuuManaAcc"
+            style="@style/button"
+            android:text="@string/luutaikhoan" />
+
+        <Button
+            android:id="@+id/btnSuaManaAcc"
+            style="@style/button"
+            android:text="@string/suataikhoan" />
+
+        <Button
+            android:id="@+id/btnTaiKhoanQL"
+            style="@style/button"
+            android:text="@string/danhsachtaikhoan" />
+    </LinearLayout>
+
+
+</LinearLayout>

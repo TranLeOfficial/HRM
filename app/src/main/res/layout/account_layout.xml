@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/actionbar">
+        <TextView style="@style/quanlynhansu"/>
+    </LinearLayout>
+
+<!--    Thông tin -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/thongtintaikhoan"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                style="@style/textview"
+                android:text="@string/tentaikhoan" />
+            <TextView
+                android:text="@string/matkhau"
+                style="@style/textview"/>
+            <TextView
+                android:text="@string/nhaplaimatkhau"
+                style="@style/textview"/>
+            <TextView
+                android:text="@string/email"
+                style="@style/textview"/>
+            <TextView
+                android:text="@string/sdt"
+                style="@style/textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtTenAcc"
+                android:text="@string/tentaikhoan"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtPassAcc"
+                android:text="@string/matkhau"
+                android:password="true"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtRePassAcc"
+                android:text="@string/nhaplaimatkhau"
+                android:password="true"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtMailAcc"
+                android:text="@string/email"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtPhoneAcc"
+                android:text="@string/sdt"
+                style="@style/textviewND"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/quanly"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnLuuAcc"
+            android:text="@string/luutaikhoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

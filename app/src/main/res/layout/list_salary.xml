@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".activity.manager_Activity">
+
+    <LinearLayout style="@style/actionbar">
+        <TextView style="@style/quanlynhansu"
+            android:text="@string/danhsachnhanluong"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+<!--        Hình + Tên + Lương     -->
+        <ListView
+            android:id="@+id/listViewDanhSachLuong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Activity.Salary_Activity">
+
+    <LinearLayout
+        style="@style/actionbar">
+        <TextView style="@style/quanlynhansu"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/thongtinnhanvien"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:padding="3dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                style="@style/textview"
+                android:text="@string/tennhanvien"
+                />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/manhanvien" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtTenNVSalary"
+                android:text="@string/tennhanvien"
+                style="@style/textviewND" />
+
+            <TextView
+                android:id="@+id/txtMaNVSalary"
+                android:text="@string/manhanvien"
+                style="@style/textviewND" />
+        </LinearLayout>
+    </LinearLayout>
+<!--    Các loại bảo hiểm-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/cacloaibaohiem"
+            ></TextView>
+    </LinearLayout>
+<!--    Bảo hiểm-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:paddingLeft="3dp">
+        <CheckBox
+            android:id="@+id/ckbBHTN"
+            android:text="@string/bhtainan"
+            style="@style/checkBox"/>
+        <CheckBox
+            android:id="@+id/ckbBHYT"
+            android:text="@string/bhyte"
+            style="@style/checkBox"/>
+        <CheckBox
+            android:id="@+id/ckbBHLD"
+            android:text="@string/bhlaodong"
+            style="@style/checkBox"/>
+        <CheckBox
+            android:id="@+id/ckbBHXH"
+            android:text="@string/bhxahoi"
+            style="@style/checkBox"/>
+    </LinearLayout>
+<!--    Lương-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/luong"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="3dp">
+        <TextView
+            android:id="@+id/textViewLuong"
+            android:text="1000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#F6060E"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+<!--    Chức năng-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/chucnang"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnLuuLuong"
+            android:text="@string/luuluong"
+            style="@style/button"></Button>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnSuaLuong"
+            android:text="@string/sualuong"
+            style="@style/button"></Button>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnXemDanhSachSalary"
+            android:text="@string/xemdanhsach"
+            style="@style/button"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>

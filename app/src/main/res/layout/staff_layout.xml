@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Staff_Activity">
+
+    <LinearLayout style="@style/actionbar">
+
+        <TextView style="@style/quanlynhansu"></TextView>
+    </LinearLayout>
+    <!--Thông tin quản lý-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/thongtinnhanvien" />
+    </LinearLayout>
+    <!--    hinh anh-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/imgStaff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:src="@mipmap/img_account" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/tennhanvien" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/manhanvien" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/email" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTenNV"
+                style="@style/textviewND"
+                android:text="@string/tennhanvien" />
+
+            <TextView
+                android:id="@+id/txtMaNV"
+                style="@style/textviewND"
+                android:text="@string/manhanvien" />
+
+            <TextView
+                android:id="@+id/txtEmailNV"
+                style="@style/textviewND"
+                android:text="@string/email" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--        chuc vu-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/chucvu" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/gioitinh" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/diachi" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/sdt" />
+
+            <TextView
+                style="@style/textview"
+                android:text="@string/tinhtrang" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtChucVuNV"
+                style="@style/textviewND"
+                android:text="@string/chucvu" />
+
+            <TextView
+                android:id="@+id/txtGioiTinhNV"
+                style="@style/textviewND"
+                android:text="@string/gioitinh" />
+
+            <TextView
+                android:id="@+id/txtDiaChiNV"
+                style="@style/textviewND"
+                android:text="@string/diachi" />
+
+            <TextView
+                android:id="@+id/txtPhoneNV"
+                style="@style/textviewND"
+                android:text="@string/sdt" />
+
+            <TextView
+                android:id="@+id/txtTinhTrangNV"
+                style="@style/textviewND"
+                android:text="Tham gia dự án" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/chucnang" />
+    </LinearLayout>
+    <!--    ButtonQuanLy-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLichLamViecNV"
+            style="@style/button"
+            android:text="@string/lichlamviec" />
+
+        <Button
+            android:id="@+id/btnXemChamCongNV"
+            style="@style/button"
+            android:text="@string/xemchamcong" />
+
+        <Button
+            android:id="@+id/btnXemDuAnNV"
+            style="@style/button"
+            android:text="@string/xemduan" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

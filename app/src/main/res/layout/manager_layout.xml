@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Activity.Manager_Activity">
+
+
+<!--Thông tin quản lý-->
+    <!--    hinh anh-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/thongtinquanly" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <ImageView
+                android:id="@+id/imgManager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:src="@mipmap/img_account"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                style="@style/textview"
+                android:text="@string/tenquanly"
+                />
+            <TextView
+                style="@style/textview"
+                android:text="@string/maquanly" />
+            <TextView
+                style="@style/textview"
+                android:text="@string/email"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtTenQL"
+                android:text="@string/tenquanly"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtMaQL"
+                android:text="@string/maquanly"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtEmailQL"
+                android:text="@string/email"
+                style="@style/textviewND"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--        chuc vu-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                style="@style/textview"
+                android:text="@string/chucvu" />
+            <TextView
+                android:text="@string/gioitinh"
+                style="@style/textview"/>
+            <TextView
+                android:text="@string/diachi"
+                style="@style/textview"/>
+            <TextView
+                android:text="@string/sdt"
+                style="@style/textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtChucVuQL"
+                android:text="@string/chucvu"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtGioiTinhQL"
+                android:text="@string/gioitinh"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtDiaChiQL"
+                android:text="@string/diachi"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtPhoneQL"
+                android:text="@string/sdt"
+                style="@style/textviewND"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--    ButtonQuanLy-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/chucnang" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnChamCongQL"
+            android:text="@string/chamcong"
+            style="@style/button" />
+        <Button
+            android:id="@+id/btnLuongQL"
+            android:text="@string/luong"
+            style="@style/button_short"/>
+        <Button
+            android:id="@+id/btnThemNVQL"
+            android:text="@string/themnhanvien"
+            style="@style/button"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/quanly"
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btnDuAnQL"
+            android:text="@string/quanlyduan"
+            style="@style/button_short"/>
+        <Button
+            android:id="@+id/btnTaiKhoanQL"
+            android:text="@string/quanlytaikhoan"
+            style="@style/button_short"/>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

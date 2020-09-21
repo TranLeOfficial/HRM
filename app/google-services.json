@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "17866262628",
+    "firebase_url": "https://keri2020hrm.firebaseio.com",
+    "project_id": "keri2020hrm",
+    "storage_bucket": "keri2020hrm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17866262628:android:b41dca4036371165adf771",
+        "android_client_info": {
+          "package_name": "com.nhan.hrm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17866262628-439ggmi5eotqjkrvci8gkepq793rgq8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9EZkuRujQHNOwEk613u170Z-STwUZIqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17866262628-439ggmi5eotqjkrvci8gkepq793rgq8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

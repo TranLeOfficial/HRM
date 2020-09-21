@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">QUẢN LÝ NHÂN SỰ</string>
+    <string name="dangnhap">Đăng Nhập</string>
+    <string name="quanly">Quản Lý</string>
+    <string name="nhanvien">Nhân Viên</string>
+    <string name="user">Tên Đăng Nhập</string>
+    <string name="pass">Mật Khẩu</string>
+    <string name="hintUser">Nhập tên đăng nhập</string>
+    <string name="hintPass">Nhập pass</string>
+
+    <string name="thongtinquanly">Thông Tin Quản Lý</string>
+    <string name="chucnang">Chức Năng</string>
+    <string name="tenquanly">Tên quản lý: </string>
+    <string name="maquanly">Mã quản lý: </string>
+    <string name="email">Email: </string>
+
+    <string name="chucvu">Chức Vụ: </string>
+    <string name="diachi">Địa Chỉ: </string>
+    <string name="gioitinh">Giới Tính: </string>
+    <string name="sdt">Phone: </string>
+    <!--    Thông Tin Nhân Viên-->
+    <string name="thongtinnhanvien">Thông tin nhân viên</string>
+    <string name="tennhanvien">Tên nhân viên: </string>
+    <string name="manhanvien">Mã nhân viên: </string>
+    <string name="tinhtrang">Tình trạng: </string>
+    <string name="lichlamviec">Lịch làm việc</string>
+    <string name="xemchamcong">Xem chấm công</string>
+    <string name="xemduan">Xem dự án</string>
+    <!--    button-->
+    <string name="chamcong">Chấm công</string>
+    <string name="luong">Lương</string>
+    <string name="themnhanvien">Thêm nhân viên</string>
+    <string name="quanlyduan">Dự án</string>
+    <string name="quanlytaikhoan">Tài khoản</string>
+    <!--    Lương-->
+    <string name="thongtinluong">Thông tin lương</string>
+    <string name="cacloaibaohiem">Các loại bảo hiểm</string>
+    <string name="xemdanhsach">Xem Danh Sách</string>
+    <string name="luuluong">Lưu Lương</string>
+    <string name="sualuong">Sưa Lương</string>
+    <!--    Bảo Hiểm-->
+    <string name="bhxahoi">Bảo hiểm xã hội</string>
+    <string name="bhtainan">Bảo hiểm tai nạn</string>
+    <string name="bhlaodong">Bảo hiểm lao động</string>
+    <string name="bhyte">Bảo hiểm y tế</string>
+
+    <!--    Danh sách -->
+    <string name="danhsachnhanluong">Danh Sách Nhận Lương</string>
+
+    <!--Menu-->
+    <string name="thoat">Thoát</string>
+
+    <!--    Chấm công-->
+    <string name="thongtinchamcong">Thông tin chấm công</string>
+    <string name="giobatdau">Giờ bắt đầu: </string>
+    <string name="gioketthuc">Giờ kết thúc: </string>
+    <string name="time">00:00:00</string>
+    <string name="nghiphep">Nghỉ phép</string>
+    <string name="khonglydo">Không lý do</string>
+    <string name="luuchamcong">Lưu chấm công</string>
+    <string name="suachamcong">Sửa chấm công</string>
+    <string name="danhsachnhanvien">DS Nhân Viên</string>
+    <string name="thongtintaikhoan">Thông tin tài khoản</string>
+    <!--    account-->
+
+    <string name="tentaikhoan">Tên User</string>
+    <string name="matkhau">Pass</string>
+    <string name="nhaplaimatkhau">Nhập lại Pass</string>
+    <string name="luutaikhoan">Lưu Tài Khoản</string>
+
+
+    <!--    addAccout-->
+
+    <string name="addStaff">Thêm thông tin nhân viên</string>
+    <string name="duan">Dự án tham gia</string>
+    <string name="suanhanvien">Sửa nhân viên</string>
+    <string name="taotaikhoang">Tạo Tài Khoản</string>
+    <string name="suataikhoan">Sửa Tài Khoản</string>
+    <string name="danhsachtaikhoan">DS Tài Khoản</string>
+    <string name="danhsachtaikhoanmana">DS Tài Khoản Manager</string>
+
+    <!--    Tạo dự án-->
+    <string name="danhsachduan">Danh Sách Dự Án</string>
+    <string name="taoproject">Tạo Dự Án</string>
+    <string name="suaduan">Sửa Dự Án</string>
+    <string name="nhanvienthamgia">Nhân viên tham gia</string>
+    <string name="taoprojectTT">Thông tin tạo dự án</string>ho
+    <string name="thongtinduan">Thông Tin Dự Án</string>
+    <string name="motaduan">Mô tả chi tiết dự án</string>
+    <string name="tenduan">Tên dự án: </string>
+    <string name="maduan">Mã dự án: </string>
+    <string name="luuduan">Lưu dự án</string>
+    <string name="ngaybatdau">Ngày bắt đầu: </string>
+    <string name="ngayketthuc">Ngày kết thúc: </string>
+</resources>

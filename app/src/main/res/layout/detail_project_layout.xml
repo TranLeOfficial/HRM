@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Activity.Detail_Project_Activity">
+    <LinearLayout style="@style/actionbar">
+        <TextView
+            style="@style/quanlynhansu"
+            android:text="@string/taoproject" />
+    </LinearLayout>
+
+<!--    Thông tin tạo dự án-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/taoprojectTT"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                style="@style/textview"
+                android:text="@string/tenquanly" />
+            <TextView
+                android:text="@string/tenduan"
+                style="@style/textview"/>
+            <TextView
+                android:text="@string/maduan"
+                style="@style/textview"/>
+            <TextView
+                android:text="@string/ngaybatdau"
+                style="@style/textview"/>
+            <TextView
+                android:text="@string/ngayketthuc"
+                style="@style/textview"/>
+            <TextView
+                android:text="@string/nhanvienthamgia"
+                style="@style/textview"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtDetailProjectTenQL"
+                android:text="@string/tenquanly"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtDetailProjectTenDuAn"
+                android:hint="@string/tenduan"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtDetailProjectMaDuAn"
+                android:hint="@string/maduan"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtDetailProjectDateStart"
+                android:text="01/01/2000"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtDetailProjectDateFinish"
+                android:text="01/01/2000"
+                style="@style/textviewND"/>
+            <TextView
+                android:id="@+id/txtDetailProjectNVThamGia"
+                android:text="Nguyễn Văn A, Trần Thị B, Ngô Ngọc C, Trịnh Hoàng D, vv"
+                style="@style/textviewND"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/motaduan"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+        <EditText
+            android:id="@+id/edtDetailDescription"
+            android:hint="@string/motaduan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            style="@style/thongtin"
+            android:text="@string/chucnang"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSuaProject"
+            android:text="@string/suaduan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button"/>
+        <Button
+            android:id="@+id/btnLuuDuAn"
+            android:text="@string/luuduan"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+
+</LinearLayout>

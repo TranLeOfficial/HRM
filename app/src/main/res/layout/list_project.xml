@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <LinearLayout style="@style/actionbar">
+        <TextView
+            style="@style/quanlynhansu"
+            android:text="@string/danhsachduan" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+        <!--        Tên Dự Án + Tên Quản Lý + Tình Trạng(đang làm or đã hoàn thành)     -->
+        <ListView
+            android:id="@+id/listViewDSProject"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center">
+        <!--        Hình + Tên + Mã     -->
+        <Button
+            android:id="@+id/btnThoatProject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="@string/thoat"
+            android:textColor="#FB1502"/>
+    </LinearLayout>
+
+</LinearLayout>
